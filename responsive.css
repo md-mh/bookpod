@@ -1,0 +1,30 @@
+@media only screen and (max-width: 992px) {
+    .book{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+        align-items: center;
+    }
+    .bookImg{
+        width: 100%;
+        position: relative;
+    }
+    .content{
+        position: relative;
+        top: -75px;
+        left: auto;
+        right: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+@media only screen and (max-width: 760px) {
+    
+    .users{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
+  }

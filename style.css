@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+body{
+    margin: 0 5%;
+    font-family: 'Arvo', serif;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+li {
+    padding: 0 5px;
+}
+header{
+    text-align: center;
+    padding: 5px;
+}
+img{
+    width: 100%;
+}
+p{
+    color: rgb(139, 136, 136);
+}
+.book{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0;
+    align-items: center;
+}
+.bookImg{
+    width: 60%;
+    position: relative;
+}
+.bookImg img {
+    border-radius: 20px;
+}
+.content{
+    position: absolute;
+    left: 55%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #ddd;
+}
+.fab{
+    padding: 5px 10px;
+}
+.writer{
+    margin: 50px 0;
+    background-color: #004687;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+.users{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+.user img{
+    width: 25%;
+}
